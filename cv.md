@@ -32,3 +32,21 @@ Why I learn programming (Frontend) and why I want to become a programmer who wor
 - `Preprocessor Sass`;
 - `Git, GitHub`;
 - `Figma`;
+
+
+## Code Example:
+
+``` JavaScript
+function between(a, b) {
+  let array = [];
+    if(a < b) {
+        for(let i = a; i <= b; i++) {
+            array.push(i)
+        }
+    } else {
+        return `The number ${a} must be grater than number ${b}`
+    }
+
+    return array
+}
+```
