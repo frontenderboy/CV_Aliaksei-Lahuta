@@ -64,3 +64,44 @@ function between(a, b) {
 - [Drag & Drop](https://frontenderboy.github.io/Drag-Drop/)
 - [Mini Game](https://frontenderboy.github.io/Mini-Game/)
 - [Aim Game](https://frontenderboy.github.io/AIM-Game/)
+
+
+
+
+<div align="center">
+  <h1>Teem Projects:</h1>
+</div>
+
+## 1. Createx - Online Courses
+<a href="https://frontend-case-chat.netlify.app/">
+    <img src="img/createx.jpg" alt="Createx" width="400">
+</a>
+
+### Technolies: 
+- `HTML5` 
+- `CSS3` 
+- `JS` 
+- `Sass`
+
+### WebSite - [https://frontend-case-chat.netlify.app/](https://frontend-case-chat.netlify.app/)
+### GitHub repository - [https://github.com/Drabovich/balagan](https://github.com/Drabovich/balagan)
+
+
+#### My role in this project - `About Us page` ([https://frontend-case-chat.netlify.app/pages/about-us.html](https://frontend-case-chat.netlify.app/pages/about-us.html))
+
+---
+
+## 2. Lux Trips
+<a href="https://stasholmansky.github.io/balagan-2/">
+    <img src="img/travel-LuxTrips.jpg" alt="lux trips" width="400">
+</a>
+### Technolies: 
+- `HTML5` 
+- `CSS3` 
+- `JS` 
+- `Sass`
+
+### WebSite - [https://stasholmansky.github.io/balagan-2/](https://stasholmansky.github.io/balagan-2/)
+### GitHub repository - [https://github.com/StasHolmansky/balagan-2](https://github.com/StasHolmansky/balagan-2)
+
+#### My role in this project - `Contact page` ([https://stasholmansky.github.io/balagan-2/pages/contact.html](https://stasholmansky.github.io/balagan-2/pages/contact.html))
