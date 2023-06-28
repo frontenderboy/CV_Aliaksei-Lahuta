@@ -22,3 +22,13 @@ Hey there! I'm Alex! I'm a student at a Polish Uniwersity! I really like program
 I have a Telegram [Channel](https://t.me/frontendersstudy). In this channel I tell and make posts, how I learn Frontend and tell which technologies I want to learn. So, I really want to invite you in this channel and go on this way together!
 
 Why I learn programming (Frontend) and why I want to become a programmer who work in big company? My answer is very simple - I want it! When I planning what I want to make, what a Website and write a code after, I feel a sense of satisfaction! It's true!
+
+
+## Skills:
+
+- `HTML5`;
+- `CSS3`;
+- `JS Basics`;
+- `Preprocessor Sass`;
+- `Git, GitHub`;
+- `Figma`;
