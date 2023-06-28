@@ -108,3 +108,44 @@ function between(a, b) {
 ### GitHub repository - [https://github.com/StasHolmansky/balagan-2](https://github.com/StasHolmansky/balagan-2)
 
 #### My role in this project - `Contact page` ([https://stasholmansky.github.io/balagan-2/pages/contact.html](https://stasholmansky.github.io/balagan-2/pages/contact.html))
+
+
+<div align="center">
+  <h1>Pet Projects:</h1>
+</div>
+
+## 1. Months Ago
+
+<a href="https://frontenderboy.github.io/months-ago/">
+    <img src="img/months-ago.png" alt="lux trips" width="400">
+</a>
+
+### Description:
+This web-application allows you find out what date was a few months or years ago.
+
+### Technologies: 
+- `HTML5`  
+- `Sass`
+- `JS` 
+
+### WebSite - [https://frontenderboy.github.io/months-ago/](https://frontenderboy.github.io/months-ago/)
+### GitHub repository - [https://github.com/frontenderboy/months-ago](https://github.com/frontenderboy/months-ago)
+ 
+
+## 2. Our Users
+
+<a href="https://frontenderboy.github.io/Async-await-Users/">
+    <img src="img/ourUsers.png" alt="lux trips" width="400">
+</a>
+
+### Description:
+In this project I implemented a request to the server using fetch and asynchronous functions async/await. `Server` - [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts)
+
+### Technologies: 
+- `HTML5`  
+- `Sass`
+- `JS` 
+
+### WebSite - [https://frontenderboy.github.io/Async-await-Users/](https://frontenderboy.github.io/Async-await-Users/)
+
+### GitHub repository - [https://github.com/frontenderboy/Async-await-Users](https://github.com/frontenderboy/Async-await-Users)
