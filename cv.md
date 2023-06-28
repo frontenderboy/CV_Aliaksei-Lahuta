@@ -149,3 +149,9 @@ In this project I implemented a request to the server using fetch and asynchrono
 ### WebSite - [https://frontenderboy.github.io/Async-await-Users/](https://frontenderboy.github.io/Async-await-Users/)
 
 ### GitHub repository - [https://github.com/frontenderboy/Async-await-Users](https://github.com/frontenderboy/Async-await-Users)
+
+## Languages:
+
+### Russian - Native
+### Polish - B2
+### English - A1
