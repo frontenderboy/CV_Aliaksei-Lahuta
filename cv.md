@@ -69,7 +69,7 @@ function between(a, b) {
 
 
 <div align="center">
-  <h1>Teem Projects:</h1>
+  <h1>Team Projects:</h1>
 </div>
 
 ## 1. Createx - Online Courses
