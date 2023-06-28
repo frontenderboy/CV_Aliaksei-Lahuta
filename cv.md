@@ -73,6 +73,7 @@ function between(a, b) {
 </div>
 
 ## 1. Createx - Online Courses
+
 <a href="https://frontend-case-chat.netlify.app/">
     <img src="img/createx.jpg" alt="Createx" width="400">
 </a>
@@ -92,9 +93,11 @@ function between(a, b) {
 ---
 
 ## 2. Lux Trips
+
 <a href="https://stasholmansky.github.io/balagan-2/">
     <img src="img/travel-LuxTrips.jpg" alt="lux trips" width="400">
 </a>
+
 ### Technolies: 
 - `HTML5` 
 - `CSS3` 
