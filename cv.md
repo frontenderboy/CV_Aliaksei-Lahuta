@@ -78,7 +78,7 @@ function between(a, b) {
     <img src="img/createx.jpg" alt="Createx" width="400">
 </a>
 
-### Technolies: 
+### Technologies: 
 - `HTML5` 
 - `CSS3` 
 - `JS` 
@@ -98,7 +98,7 @@ function between(a, b) {
     <img src="img/travel-LuxTrips.jpg" alt="lux trips" width="400">
 </a>
 
-### Technolies: 
+### Technologies: 
 - `HTML5` 
 - `CSS3` 
 - `JS` 
