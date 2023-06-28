@@ -64,7 +64,3 @@ function between(a, b) {
 - [Drag & Drop](https://frontenderboy.github.io/Drag-Drop/)
 - [Mini Game](https://frontenderboy.github.io/Mini-Game/)
 - [Aim Game](https://frontenderboy.github.io/AIM-Game/)
----
-
-`RS School Stage 0 2023Q2` :
-## Soon ...
