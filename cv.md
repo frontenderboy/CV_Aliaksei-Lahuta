@@ -114,7 +114,26 @@ function between(a, b) {
   <h1>Pet Projects:</h1>
 </div>
 
-## 1. Months Ago
+## 1. Virtual Keyboard
+
+<a href="https://frontenderboy.github.io/virtual-keyboard/">
+    <img src="img/virtual-keyboard.png" alt="virtual keyboard" width="400">
+</a>
+
+### Description:
+You can check your keyboard buttons by using this web application. This's pleasant and beautiful user interface. Clicking on your button on real keyboard you can see this button in the color on your display
+
+### Technologies: 
+- `HTML5`  
+- `Sass`
+- `JS`
+
+### Website - [https://frontenderboy.github.io/virtual-keyboard/](https://frontenderboy.github.io/virtual-keyboard/)
+
+### GitHub Repository - [https://github.com/frontenderboy/virtual-keyboard](https://github.com/frontenderboy/virtual-keyboard)
+
+
+## 2. Months Ago
 
 <a href="https://frontenderboy.github.io/months-ago/">
     <img src="img/months-ago.png" alt="lux trips" width="400">
@@ -132,7 +151,7 @@ This web-application allows you find out what date was a few months or years ago
 ### GitHub repository - [https://github.com/frontenderboy/months-ago](https://github.com/frontenderboy/months-ago)
  
 
-## 2. Our Users
+## 3. Our Users
 
 <a href="https://frontenderboy.github.io/Async-await-Users/">
     <img src="img/ourUsers.png" alt="lux trips" width="400">
