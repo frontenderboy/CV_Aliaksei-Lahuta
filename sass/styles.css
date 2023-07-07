@@ -436,7 +436,7 @@ ul {
   font-family: "Preahvihear", sans-serif;
 }
 
-.profile__status, .profile-name, .header__list li a {
+.skill__item-title, .section__skills-title, .profile__status, .profile-name, .header__list li a {
   font-family: "Poppins", sans-serif;
 }
 
@@ -460,7 +460,11 @@ body {
 
 .header {
   background: #1A0B2E;
-  margin-bottom: 150px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .navbar__wrapper {
@@ -497,7 +501,7 @@ body {
 .section__header-wrapper {
   position: relative;
   padding-left: 70px;
-  margin-bottom: 150px;
+  margin: 200px 0 150px;
 }
 .section__header-wrapper::before {
   content: "";
@@ -587,7 +591,7 @@ body {
 }
 
 .profile__status-status {
-  color: rgb(113, 39, 186);
+  color: #7127ba;
 }
 
 .about-me {
@@ -612,4 +616,35 @@ body {
 .about-text:nth-child(2) {
   align-self: flex-end;
   margin-bottom: 15px;
+}
+
+.section__skills {
+  margin-bottom: 120px;
+}
+
+.section__skills-title {
+  font-size: 4rem;
+  color: #ffffff;
+  margin-bottom: 80px;
+}
+
+.section__skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item-logo {
+  background: #ffffff;
+  width: 150px;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.skill__item-title {
+  width: 150px;
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,10 @@
 .header {
     background: $color-sec;
-    margin-bottom: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
 }
 
 .navbar__wrapper {
@@ -41,7 +45,7 @@
 .section__header-wrapper {
     position: relative;
     padding-left: 70px;
-    margin-bottom: 150px;
+    margin: 200px 0 150px;
     &::before {
         content: "";
         display: block;
@@ -135,5 +139,5 @@
 }
 
 .profile__status-status {
-    color: rgba(113, 39, 186, 1)
+    color: $color-fiolet;
 }
