@@ -1,0 +1,24 @@
+.about-me {
+    display: flex;
+    min-height: 400px;
+    padding-left: 100px;
+    margin-bottom: 120px;
+}
+
+.about-text {
+    max-width: 550px;
+    height: auto;
+    @extend %font-prim;
+    font-size: 1.8rem;
+    line-height: 35px;
+    color: $color-white;
+    &:nth-child(1) {
+        align-self: flex-start;
+        margin: 0 55px 15px 0;
+        text-indent: 5px;
+    }
+    &:nth-child(2) {
+        align-self: flex-end;
+        margin-bottom: 15px;
+    }
+}
