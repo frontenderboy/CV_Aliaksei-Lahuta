@@ -613,6 +613,7 @@ body {
 .profile__status {
   font-size: 4rem;
   color: #ffffff;
+  margin-bottom: 30px;
 }
 .profile__status #profile-cursor {
   margin-left: 10px;
@@ -621,6 +622,27 @@ body {
 
 .profile__status-status {
   color: #7127ba;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255, 189, 68);
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 250px;
+  margin: auto;
+}
+.social li {
+  margin: 0 8px;
+}
+
+svg {
+  transition: fill 0.3s ease;
+}
+svg:hover {
+  fill: #ffffff;
 }
 
 .about-me {

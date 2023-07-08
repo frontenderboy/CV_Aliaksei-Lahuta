@@ -144,6 +144,7 @@
 .profile__status {
     font-size: 4rem;
     color: $color-white;
+    margin-bottom: 30px;
     @extend %font-add;
     & #profile-cursor {
         margin-left: 10px;
@@ -153,4 +154,25 @@
 
 .profile__status-status {
     color: $color-fiolet;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 189, 68);
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 250px;
+    margin: auto;
+    & li {
+        margin: 0 8px;
+    };
+}
+
+svg {
+    transition: fill .3s ease;
+    &:hover {
+        fill: $color-white; 
+    }
 }
