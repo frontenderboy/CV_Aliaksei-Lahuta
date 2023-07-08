@@ -939,9 +939,20 @@ code[class*=language-] {
 }
 
 .pet__projects-title {
+  position: relative;
   color: #ffffff;
   font-size: 4rem;
   margin-bottom: 70px;
+}
+.pet__projects-title::before {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: -8px;
+  left: -80px;
+  background-image: url("../../img/pet-projects.png");
 }
 
 .virtual-keyboard-image {
