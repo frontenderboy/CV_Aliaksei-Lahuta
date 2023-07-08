@@ -762,9 +762,20 @@ code[class*=language-] {
 }
 
 .section__courses-projects-title {
+  position: relative;
   color: #ffffff;
   font-size: 4rem;
   margin-bottom: 70px;
+}
+.section__courses-projects-title::before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 15px;
+  left: -50px;
+  background-image: url("../../img/course-projects.png");
 }
 
 .courses__project-course-name {

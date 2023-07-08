@@ -1,8 +1,19 @@
 .section__courses-projects-title {
+    position: relative;
     color: $color-white;
     @extend %font-add;
     font-size: 4rem;
     margin-bottom: 70px;
+    &::before {
+        content: "";
+        display: block;
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 15px;
+        left: -50px;
+        background-image: url('../../img/course-projects.png');
+    }
 }
 
 .courses__project-course-name {
