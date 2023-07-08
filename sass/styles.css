@@ -432,7 +432,7 @@ ul {
   box-sizing: border-box;
 }
 
-.about-text, .header-logo {
+.code__example-desc, .about-text, .header-logo {
   font-family: "Preahvihear", sans-serif;
 }
 
@@ -647,4 +647,79 @@ body {
   text-align: center;
   font-size: 2rem;
   color: #ffffff;
+}
+
+.section-code__example {
+  margin-bottom: 120px;
+  position: relative;
+}
+.section-code__example::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 142px;
+  height: 242px;
+  transform: rotate(-40deg);
+  bottom: -100px;
+  left: 140px;
+  background-image: url("../../img/decorative/circles.svg");
+}
+.section-code__example::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 55px;
+  width: 128px;
+  height: 128px;
+  background-image: url("../../img/coding.png");
+}
+
+.code__example-title {
+  color: #ffffff;
+  font-size: 4rem;
+  margin-bottom: 50px;
+}
+
+.code__example-desc {
+  color: #ffffff;
+  font-size: 2rem;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+.code__example-desc a {
+  position: relative;
+  color: #ffffff;
+}
+.code__example-desc a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+  transform: rotate(3deg);
+  z-index: -1;
+}
+
+.code__example-wrapper {
+  border-radius: 10px;
+}
+
+pre[class*=language-] {
+  padding: 0;
+  margin: 0;
+}
+
+code[class*=language-] {
+  font-size: 20px;
+  text-shadow: none;
+}
+
+.language-css .token.string,
+.style .token.string,
+.token.entity,
+.token.operator,
+.token.url {
+  background: none;
 }/*# sourceMappingURL=styles.css.map */
