@@ -10,9 +10,9 @@
 }
 
 .section__skills-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(6, 150px);
+    gap: 40px;
 }
 
 .item-logo {
