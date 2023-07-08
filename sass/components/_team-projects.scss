@@ -1,0 +1,28 @@
+.section__team-projects {
+    margin-bottom: 200px;
+}
+
+.team__projects-title {
+    position: relative;
+    color: $color-white;
+    font-size: 4rem;
+    margin-bottom: 70px;
+    &::before {
+        content: "";
+        display: block;
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 8px;
+        left: -45px;
+        background-image: url('../../img/team.png');
+    }
+}
+
+.courses__project-text {
+    @extend %decor-link;
+}
+
+.createx-image {
+    object-fit: cover;
+}

@@ -458,12 +458,12 @@ body {
   margin: 0 auto;
 }
 
-.code__example-desc a, .about-text:nth-child(1) a {
+.courses__project-text a, .code__example-desc a, .about-text:nth-child(1) a {
   position: relative;
   color: #ffffff;
   padding: 3px 5px 0;
 }
-.code__example-desc a::after, .about-text:nth-child(1) a::after {
+.courses__project-text a::after, .code__example-desc a::after, .about-text:nth-child(1) a::after {
   content: "";
   position: absolute;
   left: 0;
@@ -761,6 +761,10 @@ code[class*=language-] {
   background: none;
 }
 
+.section__courses-projects {
+  margin-bottom: 200px;
+}
+
 .section__courses-projects-title {
   position: relative;
   color: #ffffff;
@@ -902,4 +906,30 @@ code[class*=language-] {
   background-color: #ffffff;
   border-radius: 50%;
   background-image: url("../../img/github_mini-logo.png");
+}
+
+.section__team-projects {
+  margin-bottom: 200px;
+}
+
+.team__projects-title {
+  position: relative;
+  color: #ffffff;
+  font-size: 4rem;
+  margin-bottom: 70px;
+}
+.team__projects-title::before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 8px;
+  left: -45px;
+  background-image: url("../../img/team.png");
+}
+
+.createx-image {
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=styles.css.map */
