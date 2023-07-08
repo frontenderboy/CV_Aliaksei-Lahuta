@@ -48,20 +48,7 @@
     @extend %font-prim;
     padding-left: 10px;
     margin-bottom: 30px;
-    & a {
-        position: relative;
-        color: $color-white;
-    }
-    & a::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        width: 100%;
-        height: 100%; 
-        background-color: orange;
-        transform: rotate(3deg);
-        z-index: -1;
-    }
+    @extend %decor-link;
 }
 
 .code__example-wrapper {
