@@ -122,10 +122,23 @@
 }
 
 .profile-name {
+    position: relative;
     font-size: 3.5rem;
     color: $color-white;
     @extend %font-add;
+    padding-left: 15px;
     margin-bottom: 25px;
+    &::before {
+        content: "";
+        display: block;
+        width: 92px;
+        height: 82px;
+        position: absolute;
+        top: -50px;
+        left: -85px;
+        transform: rotate(40deg);
+        background-image: url('../../img/decorative/arrow.svg');
+    }
 }
 
 .profile__status {
