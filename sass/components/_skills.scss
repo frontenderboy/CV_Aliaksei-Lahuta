@@ -3,10 +3,21 @@
 }
 
 .section__skills-title {
+    position: relative;
     font-size: 4rem;
     @extend %font-add;
     color: $color-white;
     margin-bottom: 80px;
+    &::before {
+        content: "";
+        display: block;
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 15px;
+        left: -50px;
+        background-image: url('../../img/light-bulb.png');
+    }
 }
 
 .section__skills-wrapper {
