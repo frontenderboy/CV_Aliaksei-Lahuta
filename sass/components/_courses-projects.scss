@@ -1,0 +1,134 @@
+.section__courses-projects-title {
+    color: $color-white;
+    @extend %font-add;
+    font-size: 4rem;
+    margin-bottom: 70px;
+}
+
+.courses__project-course-name {
+    color: $color-course;
+    @extend %font-add;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.32px;
+}
+
+.courses__project-title {
+    color: $color-project;
+    @extend %font-add;
+    font-size: 3.4rem;
+    font-weight: 600;
+    letter-spacing: 0.68px;
+    margin-bottom: 50px;
+}
+
+.courses__project-desc {
+    display: flex;
+    align-items: center;
+    color: $color-project;
+    @extend %font-add;
+    font-size: 1.8rem;
+    margin-bottom: 140px;
+}
+
+.courses__project-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-project {
+    flex-direction: row-reverse;
+}
+
+.courses__project-text {
+    max-width: 669px;
+    height: auto;
+    padding: 30px 40px;
+    border-radius: 14px;
+    background: radial-gradient(151.92% 127.02% at 15.32% 21.04%, rgba(105, 59, 147, 0.20) 0%, rgba(110, 191, 244, 0.04) 77.08%, rgba(70, 144, 212, 0.00) 100%);
+    &.left-text {
+        margin: 0 -15px 30px 0;
+    };
+    &.right-text {
+        margin: 0 0 30px -15px;
+    }
+}
+
+.project__skill-list {
+    display: flex;
+    margin-bottom: 25px;
+    & li {
+        margin-right: 20px;
+    };
+    & li:last-child {
+        margin-right: 0;
+    }
+}
+
+.project__skill-item {
+    width: 60px;
+    background: $color-white;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+.project__image {
+    position: relative;
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 642px;
+        height: 642px;
+        border-radius: 720px;
+        background: radial-gradient(50% 50.00% at 50% 50.00%, #763CAC 0%, rgba(50, 15, 133, 0.00) 100%);
+        z-index: -1;
+    }
+}
+
+.project__image-img {
+    width: 470px;
+    height: 315px;
+    border-radius: 10px;
+}
+
+.slider-image,
+.gallery-image,
+.drag-drop-image {
+    width: 560px;
+    height: 330px;
+}
+
+.mini-game-image,
+.aim-game-image {
+    object-fit: cover;
+} 
+
+.right-row {
+    align-self: flex-end;
+}
+
+.project-github {
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: $color-white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-left: 30px;
+    &::before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        left: -10px;
+        width: 32px;
+        height: 32px;
+        background-color: $color-white;
+        border-radius: 50%;
+        background-image: url('../../img/github_mini-logo.png');
+    }
+}
