@@ -932,4 +932,29 @@ code[class*=language-] {
 .createx-image {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.section__pet-projects {
+  margin-bottom: 180px;
+}
+
+.pet__projects-title {
+  color: #ffffff;
+  font-size: 4rem;
+  margin-bottom: 70px;
+}
+
+.virtual-keyboard-image {
+  width: 640px;
+  height: 300px;
+}
+
+.month-ago-image {
+  width: 590px;
+  height: 285px;
+}
+
+.async-await-image {
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=styles.css.map */
