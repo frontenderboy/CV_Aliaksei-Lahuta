@@ -26,9 +26,20 @@
 }
 
 .code__example-title {
+    position: relative;
     color: $color-white;
     font-size: 4rem;
     margin-bottom: 50px;
+    &::before {
+        content: "";
+        display: block;
+        width: 64px;
+        height: 64px;
+        position: absolute;
+        top: -10px;
+        left: -80px;
+        background-image: url('../../img/code.png');
+    }
 }
 
 .code__example-desc {
