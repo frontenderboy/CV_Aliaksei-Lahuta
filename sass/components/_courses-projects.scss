@@ -2,31 +2,6 @@
     margin-bottom: 200px;
 }
 
-.section__courses-projects-title {
-    position: relative;
-    color: $color-white;
-    @extend %font-add;
-    font-size: 4rem;
-    margin-bottom: 70px;
-    &::before {
-        content: "";
-        display: block;
-        width: 32px;
-        height: 32px;
-        position: absolute;
-        top: 15px;
-        left: -50px;
-        background-image: url('../../img/course-projects.png');
-    };
-
-    @media(max-width: 800px) {
-        text-align: center;
-        &::before {
-            content: none;
-        }
-    }
-}
-
 .courses__project {
     @media(max-width: 800px) {
         margin-bottom: 180px;

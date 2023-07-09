@@ -436,7 +436,7 @@ ul {
   font-family: "Preahvihear", sans-serif;
 }
 
-.footer-title, .language-level.russian-level, .courses__project-desc, .courses__project-title, .courses__project-course-name, .section__courses-projects-title, .skill__item-title, .section__skills-title, .profile__status, .profile-name, .header__list li a {
+.footer-title, .language-level.russian-level, .courses__project-desc, .courses__project-title, .courses__project-course-name, .skill__item-title, .section__skills-title, .profile__status, .profile-name, .header__list li a, .projects__title {
   font-family: "Poppins", sans-serif;
 }
 
@@ -460,6 +460,50 @@ body {
 @media (max-width: 1150px) {
   .container {
     padding: 0 60px;
+  }
+}
+
+.projects__title {
+  position: relative;
+  color: #ffffff;
+  font-size: 4rem;
+  margin-bottom: 70px;
+}
+@media (max-width: 800px) {
+  .projects__title {
+    text-align: center;
+  }
+}
+
+.courses-title::before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 15px;
+  left: -50px;
+  background-image: url("../../img/course-projects.png");
+}
+@media (max-width: 800px) {
+  .courses-title::before {
+    content: none;
+  }
+}
+
+.team-title::before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 8px;
+  left: -45px;
+  background-image: url("../../img/team.png");
+}
+@media (max-width: 800px) {
+  .team-title::before {
+    content: none;
   }
 }
 
@@ -946,31 +990,6 @@ code[class*=language-] {
   margin-bottom: 200px;
 }
 
-.section__courses-projects-title {
-  position: relative;
-  color: #ffffff;
-  font-size: 4rem;
-  margin-bottom: 70px;
-}
-.section__courses-projects-title::before {
-  content: "";
-  display: block;
-  width: 32px;
-  height: 32px;
-  position: absolute;
-  top: 15px;
-  left: -50px;
-  background-image: url("../../img/course-projects.png");
-}
-@media (max-width: 800px) {
-  .section__courses-projects-title {
-    text-align: center;
-  }
-  .section__courses-projects-title::before {
-    content: none;
-  }
-}
-
 @media (max-width: 800px) {
   .courses__project {
     margin-bottom: 180px;
@@ -1125,23 +1144,6 @@ code[class*=language-] {
 
 .section__team-projects {
   margin-bottom: 200px;
-}
-
-.team__projects-title {
-  position: relative;
-  color: #ffffff;
-  font-size: 4rem;
-  margin-bottom: 70px;
-}
-.team__projects-title::before {
-  content: "";
-  display: block;
-  width: 32px;
-  height: 32px;
-  position: absolute;
-  top: 8px;
-  left: -45px;
-  background-image: url("../../img/team.png");
 }
 
 .createx-image {
