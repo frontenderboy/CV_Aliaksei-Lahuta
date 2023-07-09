@@ -1206,6 +1206,14 @@ code[class*=language-] {
   left: -50px;
   background-image: url("../../img/language.png");
 }
+@media (max-width: 800px) {
+  .language-title {
+    text-align: center;
+  }
+  .language-title::before {
+    content: none;
+  }
+}
 
 .language {
   position: relative;
@@ -1246,6 +1254,16 @@ code[class*=language-] {
   position: absolute;
   left: -45px;
   background-image: url("../../img/languages/english.png");
+}
+
+.language__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 800px) {
+  .language__wrapper {
+    align-items: center;
+  }
 }
 
 .language-inner {

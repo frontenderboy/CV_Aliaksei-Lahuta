@@ -16,6 +16,13 @@
         top: 9px;
         left: -50px;
         background-image: url('../../img/language.png');
+    };
+
+    @media(max-width: 800px) {
+        text-align: center;
+        &::before {
+            content: none;
+        }
     }
 }
 
@@ -58,6 +65,15 @@
     position: absolute;
     left: -45px;
     background-image: url('../../img/languages/english.png');
+}
+
+.language__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    @media(max-width: 800px) {
+        align-items: center;
+    }
 }
 
 .language-inner {
