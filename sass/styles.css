@@ -488,7 +488,7 @@ body {
   position: absolute;
   top: 15px;
   left: -50px;
-  background-image: url("../../img/course-projects.png");
+  background-image: url("../../img/title_icons/course-projects.png");
 }
 @media (max-width: 969px) {
   .courses-title::before {
@@ -504,7 +504,7 @@ body {
   position: absolute;
   top: 8px;
   left: -45px;
-  background-image: url("../../img/team.png");
+  background-image: url("../../img/title_icons/team.png");
 }
 @media (max-width: 969px) {
   .team-title::before {
@@ -520,7 +520,7 @@ body {
   position: absolute;
   top: -8px;
   left: -80px;
-  background-image: url("../../img/pet-projects.png");
+  background-image: url("../../img/title_icons/pet-projects.png");
 }
 @media (max-width: 969px) {
   .pet-title::before {
@@ -949,7 +949,7 @@ body {
   position: absolute;
   top: 15px;
   left: -50px;
-  background-image: url("../img/light-bulb.png");
+  background-image: url("../img/title_icons/light-bulb.png");
 }
 @media (max-width: 969px) {
   .section__skills-title {
@@ -1026,7 +1026,7 @@ body {
   position: absolute;
   top: -10px;
   left: -80px;
-  background-image: url("../img/code.png");
+  background-image: url("../img/title_icons/code.png");
 }
 @media (max-width: 969px) {
   .code__example-title {
@@ -1300,7 +1300,7 @@ code[class*=language-] {
   position: absolute;
   top: 9px;
   left: -50px;
-  background-image: url("../img/language.png");
+  background-image: url("../img/title_icons/language.png");
 }
 @media (max-width: 969px) {
   .language-title {
