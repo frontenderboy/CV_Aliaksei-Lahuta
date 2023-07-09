@@ -1259,10 +1259,22 @@ code[class*=language-] {
   width: 640px;
   height: 300px;
 }
+@media (max-width: 546px) {
+  .virtual-keyboard-image {
+    width: 360px;
+    height: 210px;
+  }
+}
 
 .month-ago-image {
   width: 590px;
   height: 285px;
+}
+@media (max-width: 546px) {
+  .month-ago-image {
+    width: 360px;
+    height: 210px;
+  }
 }
 
 .async-await-image {
