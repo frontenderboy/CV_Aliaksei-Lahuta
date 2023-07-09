@@ -134,7 +134,7 @@
         left: 96px;
         width: 136px;
         height: 100px;
-        background-image: url('../../img/decorative/dots.svg');
+        background-image: url('../img/decorative/dots.svg');
     };
 
     @media(max-width: 1069px) {
@@ -204,7 +204,7 @@
         bottom: -45px;
         width: 115px;
         height: 115px;
-        background-image: url('../../img/decorative/gray-shapes-arrows.svg');
+        background-image: url('../img/decorative/gray-shapes-arrows.svg');
         background-repeat: no-repeat;
         z-index: -2;
 
@@ -266,7 +266,7 @@
         top: -50px;
         left: -85px;
         transform: rotate(40deg);
-        background-image: url('../../img/decorative/arrow.svg');
+        background-image: url('../img/decorative/arrow.svg');
     };
     @media(max-width: 1069px) {
         padding-left: 0;

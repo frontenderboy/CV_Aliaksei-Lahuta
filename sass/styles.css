@@ -679,7 +679,7 @@ body {
   left: 96px;
   width: 136px;
   height: 100px;
-  background-image: url("../../img/decorative/dots.svg");
+  background-image: url("../img/decorative/dots.svg");
 }
 @media (max-width: 1069px) {
   .section__header-wrapper {
@@ -748,7 +748,7 @@ body {
   bottom: -45px;
   width: 115px;
   height: 115px;
-  background-image: url("../../img/decorative/gray-shapes-arrows.svg");
+  background-image: url("../img/decorative/gray-shapes-arrows.svg");
   background-repeat: no-repeat;
   z-index: -2;
 }
@@ -815,7 +815,7 @@ body {
   top: -50px;
   left: -85px;
   transform: rotate(40deg);
-  background-image: url("../../img/decorative/arrow.svg");
+  background-image: url("../img/decorative/arrow.svg");
 }
 @media (max-width: 1069px) {
   .profile-name {
@@ -949,7 +949,7 @@ body {
   position: absolute;
   top: 15px;
   left: -50px;
-  background-image: url("../../img/light-bulb.png");
+  background-image: url("../img/light-bulb.png");
 }
 @media (max-width: 969px) {
   .section__skills-title {
@@ -1004,7 +1004,7 @@ body {
   right: 55px;
   width: 128px;
   height: 128px;
-  background-image: url("../../img/coding.png");
+  background-image: url("../img/coding.png");
 }
 @media (max-width: 969px) {
   .section-code__example::after {
@@ -1026,7 +1026,7 @@ body {
   position: absolute;
   top: -10px;
   left: -80px;
-  background-image: url("../../img/code.png");
+  background-image: url("../img/code.png");
 }
 @media (max-width: 969px) {
   .code__example-title {
@@ -1239,7 +1239,7 @@ code[class*=language-] {
   height: 32px;
   background-color: #ffffff;
   border-radius: 50%;
-  background-image: url("../../img/github_mini-logo.png");
+  background-image: url("../img/github_mini-logo.png");
 }
 
 .section__team-projects {
@@ -1300,7 +1300,7 @@ code[class*=language-] {
   position: absolute;
   top: 9px;
   left: -50px;
-  background-image: url("../../img/language.png");
+  background-image: url("../img/language.png");
 }
 @media (max-width: 969px) {
   .language-title {
@@ -1327,7 +1327,7 @@ code[class*=language-] {
   height: 32px;
   position: absolute;
   left: -45px;
-  background-image: url("../../img/languages/russia.png");
+  background-image: url("../img/languages/russia.png");
   background-size: 32px;
 }
 
@@ -1338,7 +1338,7 @@ code[class*=language-] {
   height: 32px;
   position: absolute;
   left: -45px;
-  background-image: url("../../img/languages/poland.png");
+  background-image: url("../img/languages/poland.png");
   background-size: 32px;
 }
 
@@ -1349,7 +1349,7 @@ code[class*=language-] {
   height: 32px;
   position: absolute;
   left: -45px;
-  background-image: url("../../img/languages/english.png");
+  background-image: url("../img/languages/english.png");
 }
 
 .language__wrapper {
