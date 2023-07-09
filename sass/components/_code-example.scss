@@ -12,7 +12,7 @@
         background-image: url('../../img/coding.png');
     };
 
-    @media(max-width: 800px) {
+    @media(max-width: 969px) {
         &::after {
             content: none;
         }
@@ -35,7 +35,7 @@
         background-image: url('../../img/code.png');
     };
 
-    @media(max-width: 800px) {
+    @media(max-width: 969px) {
         text-align: center;
         &::before {
             content: none;
