@@ -962,6 +962,20 @@ code[class*=language-] {
   left: -50px;
   background-image: url("../../img/course-projects.png");
 }
+@media (max-width: 800px) {
+  .section__courses-projects-title {
+    text-align: center;
+  }
+  .section__courses-projects-title::before {
+    content: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .courses__project {
+    margin-bottom: 180px;
+  }
+}
 
 .courses__project-course-name {
   color: #9857D3;
@@ -985,14 +999,29 @@ code[class*=language-] {
   font-size: 1.8rem;
   margin-bottom: 140px;
 }
+@media (max-width: 800px) {
+  .courses__project-desc {
+    flex-direction: column;
+  }
+}
 
 .courses__project-info {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 800px) {
+  .courses__project-info {
+    margin-bottom: 50px;
+  }
+}
 
 .right-project {
   flex-direction: row-reverse;
+}
+@media (max-width: 800px) {
+  .right-project {
+    flex-direction: column;
+  }
 }
 
 .courses__project-text {
@@ -1011,7 +1040,6 @@ code[class*=language-] {
 
 .project__skill-list {
   display: flex;
-  margin-bottom: 25px;
 }
 .project__skill-list li {
   margin-right: 20px;
@@ -1066,6 +1094,11 @@ code[class*=language-] {
 .right-row {
   align-self: flex-end;
 }
+@media (max-width: 800px) {
+  .right-row {
+    align-self: flex-start;
+  }
+}
 
 .project-github {
   display: flex;
@@ -1075,6 +1108,7 @@ code[class*=language-] {
   text-decoration: none;
   font-size: 2rem;
   font-weight: 600;
+  margin-top: 25px;
   padding-left: 30px;
 }
 .project-github::before {

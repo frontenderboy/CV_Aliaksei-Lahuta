@@ -17,6 +17,19 @@
         top: 15px;
         left: -50px;
         background-image: url('../../img/course-projects.png');
+    };
+
+    @media(max-width: 800px) {
+        text-align: center;
+        &::before {
+            content: none;
+        }
+    }
+}
+
+.courses__project {
+    @media(max-width: 800px) {
+        margin-bottom: 180px;
     }
 }
 
@@ -44,15 +57,26 @@
     @extend %font-add;
     font-size: 1.8rem;
     margin-bottom: 140px;
+
+    @media(max-width: 800px) {
+        flex-direction: column;
+    }
 }
 
 .courses__project-info {
     display: flex;
     flex-direction: column;
+    
+    @media(max-width: 800px) {
+        margin-bottom: 50px;
+    }
 }
 
 .right-project {
     flex-direction: row-reverse;
+    @media(max-width: 800px) {
+        flex-direction: column;
+    }
 }
 
 .courses__project-text {
@@ -71,13 +95,12 @@
 
 .project__skill-list {
     display: flex;
-    margin-bottom: 25px;
     & li {
         margin-right: 20px;
     };
     & li:last-child {
         margin-right: 0;
-    }
+    };
 }
 
 .project__skill-item {
@@ -124,6 +147,10 @@
 
 .right-row {
     align-self: flex-end;
+
+    @media(max-width: 800px) {
+        align-self: flex-start;
+    }
 }
 
 .project-github {
@@ -134,6 +161,7 @@
     text-decoration: none;
     font-size: 2rem;
     font-weight: 600;
+    margin-top: 25px;
     padding-left: 30px;
     &::before {
         content: "";
