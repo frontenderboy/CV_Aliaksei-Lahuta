@@ -23,6 +23,10 @@
         &::before {
             content: none;
         }
+    };
+
+    @media(max-width: 546px) {
+        font-size: 3.6rem;
     }
 }
 
@@ -31,6 +35,10 @@
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 30px;
+
+    @media(max-width: 546px) {
+        justify-content: center;
+    }
 }
 
 .item-logo {

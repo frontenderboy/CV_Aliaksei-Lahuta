@@ -954,12 +954,22 @@ body {
     content: none;
   }
 }
+@media (max-width: 546px) {
+  .section__skills-title {
+    font-size: 3.6rem;
+  }
+}
 
 .section__skills-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
+}
+@media (max-width: 546px) {
+  .section__skills-wrapper {
+    justify-content: center;
+  }
 }
 
 .item-logo {
