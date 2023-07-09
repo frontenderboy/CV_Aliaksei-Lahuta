@@ -1,0 +1,33 @@
+.footer {
+    padding: 35px 0;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media(max-width: 546px) {
+        flex-direction: column;
+    }
+}
+
+.footer-title {
+    color: $color-white;
+    font-size: 2.5rem;
+    @extend %font-add;
+    & span {
+        color: $color-fiolet;
+    };
+}
+
+.footer-github {
+    @media(max-width: 546px) {
+        margin: 25px 0;
+    }
+}
+
+.rsschool:hover path {
+    fill: $color-fiolet;
+    transition: fill .3s ease;
+}
