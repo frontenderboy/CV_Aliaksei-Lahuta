@@ -1,1 +1,1 @@
-# [rsschool-cv](https://frontenderboy.github.io/rsschool-cv/cv)
+# [rsschool-cv](https://frontenderboy.github.io/rsschool-cv/)

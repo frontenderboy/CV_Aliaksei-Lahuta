@@ -1,0 +1,20 @@
+@import "base/normalize";
+
+// Abstract
+@import "abstract/constants";
+@import "abstract/placeholders";
+
+// Base 
+@import "base/base";
+@import "base/links";
+
+// Components
+@import "components/header";
+@import "components/about-me";
+@import "components/skills";
+@import "components/code-example";
+@import "components/courses-projects";
+@import "components/team-projects";
+@import "components/pet-projects";
+@import "components/languages";
+@import "components/footer"

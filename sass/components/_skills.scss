@@ -1,0 +1,58 @@
+.section__skills {
+    margin-bottom: 120px;
+}
+
+.section__skills-title {
+    position: relative;
+    font-size: 4rem;
+    @extend %font-add;
+    color: $color-white;
+    margin-bottom: 80px;
+    &::before {
+        content: "";
+        display: block;
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 15px;
+        left: -50px;
+        background-image: url('../img/light-bulb.png');
+    };
+    @media(max-width: 969px) {
+        text-align: center;
+        &::before {
+            content: none;
+        }
+    };
+
+    @media(max-width: 546px) {
+        font-size: 3.6rem;
+    }
+}
+
+.section__skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+
+    @media(max-width: 546px) {
+        justify-content: center;
+    }
+}
+
+.item-logo {
+    background: $color-white;
+    width: 150px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.skill__item-title {
+    width: 150px;
+    text-align: center;
+    @extend %font-add;
+    font-size: 2rem;
+    color: $color-white;
+}

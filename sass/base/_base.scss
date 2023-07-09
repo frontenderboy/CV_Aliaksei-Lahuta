@@ -1,0 +1,81 @@
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: $color-prim;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    @media(max-width: 1150px) {
+        padding: 0 60px;
+    }
+}
+
+.projects__title {
+    position: relative;
+    color: $color-white;
+    @extend %font-add;
+    font-size: 4rem;
+    margin-bottom: 70px;
+
+    @media(max-width: 969px) {
+        text-align: center;
+    };
+
+    @media(max-width: 546px) {
+        font-size: 3.6rem;
+    }
+}
+
+.courses-title::before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 15px;
+    left: -50px;
+    background-image: url('../../img/course-projects.png');
+
+    @media(max-width: 969px) {
+        content: none;
+    }
+};
+
+.team-title::before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 8px;
+    left: -45px;
+    background-image: url('../../img/team.png');
+
+    @media(max-width: 969px) {
+        content: none;
+    }
+};
+
+.pet-title::before {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: -8px;
+    left: -80px;
+    background-image: url('../../img/pet-projects.png');
+
+    @media(max-width: 969px) {
+        content: none;
+    }
+}
+
+.open {
+    display: flex !important
+}

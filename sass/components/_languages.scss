@@ -1,0 +1,140 @@
+.section__language {
+    margin-bottom: 120px;
+}
+
+.language-title {
+    position: relative;
+    color: $color-white;
+    font-size: 4rem;
+    margin-bottom: 80px;
+    &::before {
+        content: "";
+        display: block;
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 9px;
+        left: -50px;
+        background-image: url('../img/language.png');
+    };
+
+    @media(max-width: 969px) {
+        text-align: center;
+        &::before {
+            content: none;
+        }
+    }
+}
+
+.language {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: $color-white;
+    font-size: 2.5rem;
+    margin-right: 25px;
+}
+
+.language-russian::before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: -45px;
+    background-image: url('../img/languages/russia.png');
+    background-size: 32px;
+}
+
+.language-polish::before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: -45px;
+    background-image: url('../img/languages/poland.png');
+    background-size: 32px;
+}
+
+.language-english::before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: -45px;
+    background-image: url('../img/languages/english.png');
+}
+
+.language__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    @media(max-width: 969px) {
+        align-items: center;
+    }
+}
+
+.language-inner {
+    display: flex;
+    align-items: center;
+    margin: 0 0 88px;
+}
+
+.language-level {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background: $color-white;
+    padding: 10px 15px;
+    border-radius: 10px;
+
+    &.russian-level {
+        @extend %font-add;
+        font-size: 2rem;
+        font-weight: 600;
+        color: $color-black;
+    };
+}
+
+.polish-level::before {
+    content: "B2";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100px;
+    height: 100px;
+    @extend %font-prim;
+    font-size: 15rem;
+    font-weight: 600;
+    color: $color-gray;
+    right: 145px;
+    bottom: 70px;
+    transform: rotate(-3deg);
+
+}
+
+.english-level::before {
+    content: "A1";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100px;
+    height: 100px;
+    @extend %font-prim;
+    font-size: 15rem;
+    font-weight: 600;
+    color: #8491A0;
+    right: 145px;
+    bottom: 52px;
+    transform: rotate(-10deg);
+}
+
+.star-img {
+    fill: #ffc107;
+}
