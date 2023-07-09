@@ -17,6 +17,12 @@
         top: 15px;
         left: -50px;
         background-image: url('../../img/light-bulb.png');
+    };
+    @media(max-width: 800px) {
+        text-align: center;
+        &::before {
+            content: none;
+        }
     }
 }
 
@@ -24,6 +30,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .item-logo {

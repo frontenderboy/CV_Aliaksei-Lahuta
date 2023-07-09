@@ -842,11 +842,20 @@ body {
   left: -50px;
   background-image: url("../../img/light-bulb.png");
 }
+@media (max-width: 800px) {
+  .section__skills-title {
+    text-align: center;
+  }
+  .section__skills-title::before {
+    content: none;
+  }
+}
 
 .section__skills-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 30px;
 }
 
 .item-logo {
