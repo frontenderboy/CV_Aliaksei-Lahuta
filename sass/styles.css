@@ -432,11 +432,11 @@ ul {
   box-sizing: border-box;
 }
 
-.code__example-desc, .about-text, .header-logo {
+.english-level::before, .polish-level::before, .code__example-desc, .about-text, .header-logo {
   font-family: "Preahvihear", sans-serif;
 }
 
-.courses__project-desc, .courses__project-title, .courses__project-course-name, .section__courses-projects-title, .skill__item-title, .section__skills-title, .profile__status, .profile-name, .header__list li a {
+.language-level.russian-level, .courses__project-desc, .courses__project-title, .courses__project-course-name, .section__courses-projects-title, .skill__item-title, .section__skills-title, .profile__status, .profile-name, .header__list li a {
   font-family: "Poppins", sans-serif;
 }
 
@@ -638,10 +638,11 @@ body {
   margin: 0 8px;
 }
 
-svg {
+.social-img {
+  fill: #000000;
   transition: fill 0.3s ease;
 }
-svg:hover {
+.social-img:hover {
   fill: #ffffff;
 }
 
@@ -990,4 +991,118 @@ code[class*=language-] {
 .async-await-image {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.language-title {
+  position: relative;
+  color: #ffffff;
+  font-size: 4rem;
+  margin-bottom: 80px;
+}
+.language-title::before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 9px;
+  left: -50px;
+  background-image: url("../../img/language.png");
+}
+
+.language {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-right: 25px;
+}
+
+.language-russian::before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: -45px;
+  background-image: url("../../img/languages/russia.png");
+  background-size: 32px;
+}
+
+.language-polish::before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: -45px;
+  background-image: url("../../img/languages/poland.png");
+  background-size: 32px;
+}
+
+.language-english::before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: -45px;
+  background-image: url("../../img/languages/english.png");
+}
+
+.language-inner {
+  display: flex;
+  align-items: center;
+  margin: 0 10px 88px 0;
+}
+
+.language-level {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  background: #ffffff;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.language-level.russian-level {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000000;
+}
+
+.polish-level::before {
+  content: "B2";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100px;
+  height: 100px;
+  font-size: 15rem;
+  font-weight: 600;
+  color: #8491A0;
+  right: 145px;
+  bottom: 52px;
+}
+
+.english-level::before {
+  content: "A1";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100px;
+  height: 100px;
+  font-size: 15rem;
+  font-weight: 600;
+  color: #8491A0;
+  right: 145px;
+  bottom: 52px;
+}
+
+.star-img {
+  fill: #ffc107;
 }/*# sourceMappingURL=styles.css.map */
