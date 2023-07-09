@@ -436,7 +436,7 @@ ul {
   font-family: "Preahvihear", sans-serif;
 }
 
-.language-level.russian-level, .courses__project-desc, .courses__project-title, .courses__project-course-name, .section__courses-projects-title, .skill__item-title, .section__skills-title, .profile__status, .profile-name, .header__list li a {
+.footer-title, .language-level.russian-level, .courses__project-desc, .courses__project-title, .courses__project-course-name, .section__courses-projects-title, .skill__item-title, .section__skills-title, .profile__status, .profile-name, .header__list li a {
   font-family: "Poppins", sans-serif;
 }
 
@@ -993,6 +993,10 @@ code[class*=language-] {
      object-fit: cover;
 }
 
+.section__language {
+  margin-bottom: 120px;
+}
+
 .language-title {
   position: relative;
   color: #ffffff;
@@ -1107,4 +1111,27 @@ code[class*=language-] {
 
 .star-img {
   fill: #ffc107;
+}
+
+.footer {
+  padding: 35px 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+.footer-title span {
+  color: #7127ba;
+}
+
+.rsschool:hover path {
+  fill: #7127ba;
+  transition: fill 0.3s ease;
 }/*# sourceMappingURL=styles.css.map */
