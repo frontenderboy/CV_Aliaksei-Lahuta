@@ -432,7 +432,7 @@ ul {
   box-sizing: border-box;
 }
 
-.english-level::before, .polish-level::before, .code__example-desc, .about-text, .header-logo {
+.english-level::before, .polish-level::before, .code__example-desc, .about-text:nth-child(2)::before, .about-text, .header-logo {
   font-family: "Preahvihear", sans-serif;
 }
 
@@ -646,11 +646,15 @@ body {
   fill: #ffffff;
 }
 
-.about-me {
+.about__me {
   display: flex;
   min-height: 400px;
   padding-left: 100px;
   margin-bottom: 120px;
+}
+
+.about__me-title {
+  display: none;
 }
 
 .about-text {
@@ -666,8 +670,22 @@ body {
   text-indent: 5px;
 }
 .about-text:nth-child(2) {
+  position: relative;
   align-self: flex-end;
   margin-bottom: 15px;
+}
+.about-text:nth-child(2)::before {
+  content: "About me";
+  text-align: center;
+  position: absolute;
+  top: -120px;
+  display: block;
+  width: 80%;
+  height: auto;
+  color: #8491A0;
+  font-size: 7rem;
+  font-weight: 600;
+  transform: rotate(10deg);
 }
 
 .section__skills {

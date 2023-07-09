@@ -1,8 +1,12 @@
-.about-me {
+.about__me {
     display: flex;
     min-height: 400px;
     padding-left: 100px;
     margin-bottom: 120px;
+}
+
+.about__me-title {
+    display: none;
 }
 
 .about-text {
@@ -19,7 +23,22 @@
         @extend %decor-link;
     }
     &:nth-child(2) {
+        position: relative;
         align-self: flex-end;
         margin-bottom: 15px;
+        &::before {
+            content: "About me";
+            text-align: center;
+            position: absolute;
+            top: -120px;
+            display: block;
+            width: 80%;
+            height: auto;
+            color: $color-gray;
+            font-size: 7rem;
+            font-weight: 600;
+            @extend %font-prim;
+            transform: rotate(10deg);
+        }
     }
 }
