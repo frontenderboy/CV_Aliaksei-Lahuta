@@ -99,6 +99,13 @@
         border-radius: 720px;
         background: radial-gradient(50% 50.00% at 50% 50.00%, #763CAC 0%, rgba(50, 15, 133, 0.00) 100%);
         z-index: -1;
+    };
+
+    @media(max-width: 546px) {
+        &::before {
+            width: 472px;
+            height: 472px;
+        }
     }
 }
 
@@ -106,6 +113,11 @@
     width: 470px;
     height: 315px;
     border-radius: 10px;
+
+    @media(max-width: 546px) {
+        width: 350px;
+        height: 245px;
+    }
 }
 
 .slider-image,
@@ -113,6 +125,11 @@
 .drag-drop-image {
     width: 560px;
     height: 330px;
+
+    @media(max-width: 546px) {
+        width: 360px;
+        height: 230px;
+    }
 }
 
 .mini-game-image,
