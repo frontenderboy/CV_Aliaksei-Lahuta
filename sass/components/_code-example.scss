@@ -1,18 +1,6 @@
 .section-code__example {
     margin-bottom: 200px;
     position: relative;
-    &::before {
-        content: "";
-        display: block;
-        position: absolute;
-        width: 142px;
-        height: 242px;
-        transform: rotate(-40deg);
-        bottom: -100px;
-        left: 140px;
-        background-image: url('../../img/decorative/circles.svg');
-    };
-
     &::after {
         content: "";
         display: block;
@@ -39,6 +27,13 @@
         top: -10px;
         left: -80px;
         background-image: url('../../img/code.png');
+    };
+
+    @media(max-width: 800px) {
+        text-align: center;
+        &::before {
+            content: none;
+        }
     }
 }
 
@@ -61,7 +56,7 @@ pre[class*=language-] {
 }
 
 code[class*=language-] {
-    font-size: 20px;
+    font-size: 2rem;
     text-shadow: none;
 }
 

@@ -877,17 +877,6 @@ body {
   margin-bottom: 200px;
   position: relative;
 }
-.section-code__example::before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 142px;
-  height: 242px;
-  transform: rotate(-40deg);
-  bottom: -100px;
-  left: 140px;
-  background-image: url("../../img/decorative/circles.svg");
-}
 .section-code__example::after {
   content: "";
   display: block;
@@ -915,6 +904,14 @@ body {
   left: -80px;
   background-image: url("../../img/code.png");
 }
+@media (max-width: 800px) {
+  .code__example-title {
+    text-align: center;
+  }
+  .code__example-title::before {
+    content: none;
+  }
+}
 
 .code__example-desc {
   color: #ffffff;
@@ -933,7 +930,7 @@ pre[class*=language-] {
 }
 
 code[class*=language-] {
-  font-size: 20px;
+  font-size: 2rem;
   text-shadow: none;
 }
 
