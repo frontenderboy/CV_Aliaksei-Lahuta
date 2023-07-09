@@ -1,0 +1,11 @@
+.section__team-projects {
+    margin-bottom: 200px;
+}
+
+.courses__project-text {
+    @extend %decor-link;
+}
+
+.createx-image {
+    object-fit: cover;
+}

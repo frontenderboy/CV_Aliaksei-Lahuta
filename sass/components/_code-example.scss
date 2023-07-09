@@ -1,0 +1,75 @@
+.section-code__example {
+    margin-bottom: 200px;
+    position: relative;
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 55px;
+        width: 128px;
+        height: 128px;
+        background-image: url('../img/coding.png');
+    };
+
+    @media(max-width: 969px) {
+        &::after {
+            content: none;
+        }
+    }
+}
+
+.code__example-title {
+    position: relative;
+    color: $color-white;
+    font-size: 4rem;
+    margin-bottom: 50px;
+    &::before {
+        content: "";
+        display: block;
+        width: 64px;
+        height: 64px;
+        position: absolute;
+        top: -10px;
+        left: -80px;
+        background-image: url('../img/title_icons/code.png');
+    };
+
+    @media(max-width: 969px) {
+        text-align: center;
+        &::before {
+            content: none;
+        }
+    }
+}
+
+.code__example-desc {
+    color: $color-white;
+    font-size: 2rem;
+    @extend %font-prim;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    @extend %decor-link;
+}
+
+.code__example-wrapper {
+    border-radius: 10px;
+}
+
+pre[class*=language-] {
+    padding: 0;
+    margin: 0;
+}
+
+code[class*=language-] {
+    font-size: 2rem;
+    text-shadow: none;
+}
+
+.language-css .token.string, 
+.style .token.string, 
+.token.entity, 
+.token.operator, 
+.token.url {
+    background: none;
+}
