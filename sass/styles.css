@@ -1086,7 +1086,8 @@ code[class*=language-] {
   font-weight: 600;
   color: #8491A0;
   right: 145px;
-  bottom: 52px;
+  bottom: 70px;
+  transform: rotate(-3deg);
 }
 
 .english-level::before {
@@ -1101,6 +1102,7 @@ code[class*=language-] {
   color: #8491A0;
   right: 145px;
   bottom: 52px;
+  transform: rotate(-10deg);
 }
 
 .star-img {
