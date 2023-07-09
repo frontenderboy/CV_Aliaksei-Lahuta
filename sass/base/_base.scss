@@ -57,6 +57,21 @@ body {
     }
 };
 
+.pet-title::before {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: -8px;
+    left: -80px;
+    background-image: url('../../img/pet-projects.png');
+
+    @media(max-width: 800px) {
+        content: none;
+    }
+}
+
 .open {
     display: flex !important
 }

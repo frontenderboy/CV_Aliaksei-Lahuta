@@ -507,6 +507,22 @@ body {
   }
 }
 
+.pet-title::before {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: -8px;
+  left: -80px;
+  background-image: url("../../img/pet-projects.png");
+}
+@media (max-width: 800px) {
+  .pet-title::before {
+    content: none;
+  }
+}
+
 .open {
   display: flex !important;
 }
@@ -1153,23 +1169,6 @@ code[class*=language-] {
 
 .section__pet-projects {
   margin-bottom: 180px;
-}
-
-.pet__projects-title {
-  position: relative;
-  color: #ffffff;
-  font-size: 4rem;
-  margin-bottom: 70px;
-}
-.pet__projects-title::before {
-  content: "";
-  display: block;
-  width: 64px;
-  height: 64px;
-  position: absolute;
-  top: -8px;
-  left: -80px;
-  background-image: url("../../img/pet-projects.png");
 }
 
 .virtual-keyboard-image {
