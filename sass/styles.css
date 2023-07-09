@@ -1365,7 +1365,7 @@ code[class*=language-] {
 .language-inner {
   display: flex;
   align-items: center;
-  margin: 0 10px 88px 0;
+  margin: 0 0 88px;
 }
 
 .language-level {
@@ -1429,6 +1429,11 @@ code[class*=language-] {
   align-items: center;
   justify-content: space-between;
 }
+@media (max-width: 546px) {
+  .footer-wrapper {
+    flex-direction: column;
+  }
+}
 
 .footer-title {
   color: #ffffff;
@@ -1436,6 +1441,12 @@ code[class*=language-] {
 }
 .footer-title span {
   color: #7127ba;
+}
+
+@media (max-width: 546px) {
+  .footer-github {
+    margin: 25px 0;
+  }
 }
 
 .rsschool:hover path {
