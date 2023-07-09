@@ -11,6 +11,12 @@
         height: 128px;
         background-image: url('../../img/coding.png');
     };
+
+    @media(max-width: 800px) {
+        &::after {
+            content: none;
+        }
+    }
 }
 
 .code__example-title {

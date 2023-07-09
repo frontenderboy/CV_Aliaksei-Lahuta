@@ -689,6 +689,11 @@ body {
     left: 156px;
   }
 }
+@media (max-width: 546px) {
+  .section__header-wrapper::before {
+    left: -15px;
+  }
+}
 
 .header__profile {
   display: flex;
@@ -747,6 +752,19 @@ body {
     bottom: 0;
   }
 }
+@media (max-width: 546px) {
+  .profile__image::after {
+    right: -5px;
+    bottom: -30px;
+  }
+}
+@media (max-width: 546px) {
+  .profile__image {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 40px;
+  }
+}
 
 .profile__image-img {
   position: absolute;
@@ -756,6 +774,12 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 50%;
+}
+@media (max-width: 546px) {
+  .profile__image-img {
+    width: 250px;
+    height: 250px;
+  }
 }
 
 .profile__about {
@@ -796,6 +820,11 @@ body {
     content: none;
   }
 }
+@media (max-width: 546px) {
+  .profile-name {
+    font-size: 3rem;
+  }
+}
 
 .profile__status {
   font-size: 4rem;
@@ -814,6 +843,11 @@ body {
 @media (max-width: 1069px) {
   .profile__status {
     font-size: 3.4rem;
+  }
+}
+@media (max-width: 546px) {
+  .profile__status {
+    font-size: 2rem;
   }
 }
 
@@ -946,6 +980,11 @@ body {
   width: 128px;
   height: 128px;
   background-image: url("../../img/coding.png");
+}
+@media (max-width: 800px) {
+  .section-code__example::after {
+    content: none;
+  }
 }
 
 .code__example-title {
