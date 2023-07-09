@@ -3,6 +3,10 @@
     min-height: 400px;
     padding-left: 100px;
     margin-bottom: 120px;
+    @media(max-width: 800px) {
+        flex-direction: column;
+        padding-left: 0;
+    }
 }
 
 .about__me-title {
@@ -21,6 +25,9 @@
         margin: 0 55px 15px 0;
         text-indent: 5px;
         @extend %decor-link;
+        @media(max-width: 800px) {
+            margin-bottom: 30px;
+        }
     }
     &:nth-child(2) {
         align-self: flex-end;
