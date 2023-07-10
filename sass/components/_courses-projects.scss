@@ -2,11 +2,12 @@
     margin-bottom: 200px;
 }
 
-.courses__project {
-    @media(max-width: 800px) {
+@include media-tablet {
+    .courses__project {
         margin-bottom: 180px;
     }
 }
+
 
 .courses__project-course-name {
     color: $color-course;
@@ -33,7 +34,7 @@
     font-size: 1.8rem;
     margin-bottom: 140px;
 
-    @media(max-width: 1069px) {
+    @include media-minlaptop {
         flex-direction: column;
     }
 }
@@ -41,15 +42,16 @@
 .courses__project-info {
     display: flex;
     flex-direction: column;
-    
-    @media(max-width: 1069px) {
+
+    @include media-minlaptop {
         margin-bottom: 50px;
     }
 }
 
 .right-project {
     flex-direction: row-reverse;
-    @media(max-width: 1069px) {
+
+    @include media-minlaptop {
         flex-direction: column;
     }
 }
@@ -101,7 +103,7 @@
         z-index: -1;
     };
 
-    @media(max-width: 546px) {
+    @include media-mobile {
         &::before {
             width: 392px;
             height: 422px;
@@ -114,7 +116,7 @@
     height: 315px;
     border-radius: 10px;
 
-    @media(max-width: 546px) {
+    @include media-mobile {
         width: 350px;
         height: 245px;
     }
@@ -126,7 +128,7 @@
     width: 560px;
     height: 330px;
 
-    @media(max-width: 546px) {
+    @include media-mobile {
         width: 360px;
         height: 230px;
     }
@@ -140,7 +142,7 @@
 .right-row {
     align-self: flex-end;
 
-    @media(max-width: 1069px) {
+    @include media-minlaptop {
         align-self: flex-start;
     }
 }

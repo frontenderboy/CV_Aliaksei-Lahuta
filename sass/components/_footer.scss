@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: space-between;
 
-    @media(max-width: 546px) {
+    @include media-mobile {
         flex-direction: column;
     }
 }
@@ -21,11 +21,12 @@
     };
 }
 
-.footer-github {
-    @media(max-width: 546px) {
+@include media-mobile {
+    .footer-github {
         margin: 25px 0;
     }
 }
+
 
 .rsschool:hover path {
     fill: $color-fiolet;

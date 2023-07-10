@@ -18,14 +18,15 @@
         left: -50px;
         background-image: url('../img/title_icons/light-bulb.png');
     };
-    @media(max-width: 1069px) {
+
+    @include media-minlaptop {
         text-align: center;
         &::before {
             content: none;
         }
-    };
+    }
 
-    @media(max-width: 546px) {
+    @include media-mobile {
         font-size: 3.6rem;
     }
 }
@@ -36,7 +37,7 @@
     justify-content: space-between;
     gap: 30px;
 
-    @media(max-width: 546px) {
+    @include media-mobile {
         justify-content: center;
     }
 }

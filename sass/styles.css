@@ -705,7 +705,7 @@ body {
     font-size: 2rem;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 400px) {
   .header__list li a {
     font-size: 1.5rem;
   }
@@ -1118,7 +1118,6 @@ code[class*=language-] {
     margin-bottom: 180px;
   }
 }
-
 .courses__project-course-name {
   color: #9857D3;
   font-size: 1.6rem;
@@ -1491,7 +1490,6 @@ code[class*=language-] {
     margin: 25px 0;
   }
 }
-
 .rsschool:hover path {
   fill: #7127ba;
   transition: fill 0.3s ease;

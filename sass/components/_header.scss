@@ -111,7 +111,7 @@
     }
 }
 
-@media(max-width: 800px) {
+@include media-tablet {
     .burger {
         display: block;
     }
@@ -159,13 +159,13 @@
     }
 }
 
-@media(max-width: 546px) {
+@include media-mobile {
     .header__list li a {
         font-size: 2rem;
     }
 }
 
-@media(max-width: 350px) {
+@include media-smallmobile {
     .header__list li a {
         font-size: 1.5rem;
     }
@@ -187,20 +187,20 @@
         background-image: url('../img/decorative/dots.svg');
     };
 
-    @media(max-width: 1069px) {
+    @include media-minlaptop {
         padding-left: 0;
         &::before {
             left: 296px;
         }
-    };
+    }
 
-    @media(max-width: 800px) {
+    @include media-tablet {
         &::before {
             left: 156px;
         }
-    };
+    }
 
-    @media(max-width: 546px) {
+    @include media-mobile {
         &::before {
             left: -15px;
         }
@@ -210,7 +210,7 @@
 .header__profile {
     display: flex;
     align-items: center;
-    @media(max-width: 1069px) {
+    @include media-minlaptop {
         flex-direction: column;
     }
 }
@@ -258,17 +258,17 @@
         background-repeat: no-repeat;
         z-index: -2;
 
-        @media(max-width: 1069px) {
+        @include media-minlaptop {
             bottom: 0;
-        };
+        }
 
-        @media(max-width: 546px) {
+        @include media-mobile {
             right: -5px;
             bottom: -30px;
         }
     };
 
-    @media(max-width: 546px) {
+    @include media-mobile {
         width: 350px;
         height: 350px;
         margin-bottom: 40px;
@@ -284,7 +284,7 @@
     height: 300px;
     border-radius: 50%;
 
-    @media(max-width: 546px) {
+    @include media-mobile {
         width: 250px;
         height: 250px;
     }
@@ -292,7 +292,7 @@
 
 .profile__about {
     margin-left: 40px;
-    @media(max-width: 1069px) {
+    @include media-minlaptop {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -318,14 +318,14 @@
         transform: rotate(40deg);
         background-image: url('../img/decorative/arrow.svg');
     };
-    @media(max-width: 1069px) {
+
+    @include media-minlaptop {
         padding-left: 0;
         &::before {
             content: none;
         }
-    };
-
-    @media(max-width: 546px) {
+    }
+    @include media-mobile {
         font-size: 3rem;
     }
 }
@@ -339,15 +339,15 @@
         margin-left: 10px;
         transition: visibility .4s ease-in-out;
     };
-    @media(max-width: 1150px) {
+    @include media-laptop {
         font-size: 3.8rem;
-    };
+    }
 
-    @media(max-width: 1069px) {
+    @include media-minlaptop {
         font-size: 3.4rem;
-    };
+    }
 
-    @media(max-width: 546px) {
+    @include media-mobile {
         font-size: 2rem;
     }
 }

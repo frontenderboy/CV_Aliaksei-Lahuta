@@ -6,7 +6,7 @@
     width: 640px;
     height: 300px;
 
-    @media(max-width: 546px) {
+    @include media-mobile {
         width: 360px;
         height: 210px;
     }
@@ -16,7 +16,7 @@
     width: 590px;
     height: 285px;
 
-    @media(max-width: 546px) {
+    @include media-mobile {
         width: 360px;
         height: 210px;
     }
