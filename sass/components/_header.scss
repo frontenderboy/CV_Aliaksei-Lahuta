@@ -159,6 +159,12 @@
     }
 }
 
+@media(max-width: 500px) {
+    .header__list li a {
+        font-size: 2rem;
+    }
+}
+
 // -------------- //// -------------
 
 .section__header-wrapper {
