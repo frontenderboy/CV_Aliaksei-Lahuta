@@ -7,6 +7,10 @@ body {
     background: $color-prim;
 }
 
+.page__body {
+    overflow-x: hidden;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -39,7 +43,7 @@ body {
     position: absolute;
     top: 15px;
     left: -50px;
-    background-image: url('../../img/title_icons/course-projects.png');
+    background-image: url('../img/title_icons/course-projects.png');
 
     @media(max-width: 969px) {
         content: none;
@@ -54,7 +58,7 @@ body {
     position: absolute;
     top: 8px;
     left: -45px;
-    background-image: url('../../img/title_icons/team.png');
+    background-image: url('../img/title_icons/team.png');
 
     @media(max-width: 969px) {
         content: none;
@@ -69,13 +73,9 @@ body {
     position: absolute;
     top: -8px;
     left: -80px;
-    background-image: url('../../img/title_icons/pet-projects.png');
+    background-image: url('../img/title_icons/pet-projects.png');
 
     @media(max-width: 969px) {
         content: none;
     }
-}
-
-.open {
-    display: flex !important
 }

@@ -1,3 +1,5 @@
+// ------ Toggled Cursor ------
+
 const cursorNode = document.querySelector('#profile-cursor');
 
 function toggleCursor() {
@@ -6,10 +8,30 @@ function toggleCursor() {
 
 setInterval(toggleCursor, 1000)
 
-const burgerNode = document.querySelector('.burger-menu');
-const navbarNode = document.querySelector('.header__navbar');
 
-burgerNode.addEventListener('click', function() {
-    this.classList.toggle('active');
-    navbarNode.classList.toggle('open')
+// ------ Burger Menu ------
+
+const burgerNode = document.querySelector('[data-burger]');
+const navbarNode = document.querySelector('[data-navbar]');
+const navItems = navbarNode.querySelectorAll('a');
+const headerLogo = document.querySelector('.header__logo');
+
+burgerNode.addEventListener('click', () => {
+    document.body.classList.toggle('stop--scroll');
+    burgerNode.classList.toggle('burger--active');
+    navbarNode.classList.toggle('header__navbar--visible');
+})
+
+headerLogo.addEventListener('click', () => {
+    document.body.classList.remove('stop--scroll');
+    burgerNode.classList.remove('burger--active');
+    navbarNode.classList.remove('header__navbar--visible');
+})
+
+navItems.forEach(el => {
+    el.addEventListener('click', () => {
+        document.body.classList.remove('stop--scroll');
+        burgerNode.classList.remove('burger--active');
+        navbarNode.classList.remove('header__navbar--visible');
+    })
 })

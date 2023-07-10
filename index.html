@@ -20,25 +20,27 @@
     <link rel="stylesheet" href="sass/styles.css">
     <title>CV — Aliaksei Lahuta</title>
 </head>
-<body>
+<body class="page__body">
 
     <header class="header">
         <div class="container">
             <div class="navbar__wrapper">
-                <a href="/"><h1 class="header-logo">AL</h1></a>
+                <a href="#"><h1 class="header__logo">AL</h1></a>
         
-                <nav class="header__navbar">
+                <nav class="header__navbar" data-navbar>
                     <ul class="header__list">
                         <li><a href="#about-me" class="list__item">About Me</a></li>
                         <li><a href="#skills" class="list__item">Skills</a></li>
                         <li><a href="#projects" class="list__item">Projects</a></li>
                         <li><a href="#contacts" class="list__item">Contacts</a></li>
+
+                        <li><a href="mailto:lahutaliaksei@gmail.com" class="list__item burger-item">lahutaliaksei@gmail.com</a></li>
                     </ul>
                 </nav>
 
-                <div class="burger-menu">
-                    <span></span>
-                </div>
+                <button class="burger" data-burger aria-label="Open menu" aria-expanded="false">
+                    <span class="burger__line"></span>
+                </button>
             </div>
         </div>
     </header>
