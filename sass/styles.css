@@ -700,9 +700,14 @@ body {
     text-align: center;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 546px) {
   .header__list li a {
     font-size: 2rem;
+  }
+}
+@media (max-width: 350px) {
+  .header__list li a {
+    font-size: 1.5rem;
   }
 }
 .section__header-wrapper {
