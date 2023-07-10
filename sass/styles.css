@@ -473,7 +473,7 @@ body {
   font-size: 4rem;
   margin-bottom: 70px;
 }
-@media (max-width: 969px) {
+@media (max-width: 1069px) {
   .projects__title {
     text-align: center;
   }
@@ -494,7 +494,7 @@ body {
   left: -50px;
   background-image: url("../img/title_icons/course-projects.png");
 }
-@media (max-width: 969px) {
+@media (max-width: 1069px) {
   .courses-title::before {
     content: none;
   }
@@ -510,7 +510,7 @@ body {
   left: -45px;
   background-image: url("../img/title_icons/team.png");
 }
-@media (max-width: 969px) {
+@media (max-width: 1069px) {
   .team-title::before {
     content: none;
   }
@@ -526,7 +526,7 @@ body {
   left: -80px;
   background-image: url("../img/title_icons/pet-projects.png");
 }
-@media (max-width: 969px) {
+@media (max-width: 1069px) {
   .pet-title::before {
     content: none;
   }
@@ -931,7 +931,7 @@ body {
   padding-left: 100px;
   margin-bottom: 120px;
 }
-@media (max-width: 969px) {
+@media (max-width: 1069px) {
   .about__me {
     flex-direction: column;
     padding-left: 0;
@@ -954,7 +954,7 @@ body {
   margin: 0 55px 15px 0;
   text-indent: 5px;
 }
-@media (max-width: 969px) {
+@media (max-width: 1069px) {
   .about-text:nth-child(1) {
     margin-bottom: 30px;
   }
@@ -994,7 +994,7 @@ body {
   left: -50px;
   background-image: url("../img/title_icons/light-bulb.png");
 }
-@media (max-width: 969px) {
+@media (max-width: 1069px) {
   .section__skills-title {
     text-align: center;
   }
@@ -1049,7 +1049,7 @@ body {
   height: 128px;
   background-image: url("../img/coding.png");
 }
-@media (max-width: 969px) {
+@media (max-width: 1069px) {
   .section-code__example::after {
     content: none;
   }
@@ -1071,7 +1071,7 @@ body {
   left: -80px;
   background-image: url("../img/title_icons/code.png");
 }
-@media (max-width: 969px) {
+@media (max-width: 1069px) {
   .code__example-title {
     text-align: center;
   }
@@ -1141,7 +1141,7 @@ code[class*=language-] {
   font-size: 1.8rem;
   margin-bottom: 140px;
 }
-@media (max-width: 969px) {
+@media (max-width: 1069px) {
   .courses__project-desc {
     flex-direction: column;
   }
@@ -1151,7 +1151,7 @@ code[class*=language-] {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 969px) {
+@media (max-width: 1069px) {
   .courses__project-info {
     margin-bottom: 50px;
   }
@@ -1160,7 +1160,7 @@ code[class*=language-] {
 .right-project {
   flex-direction: row-reverse;
 }
-@media (max-width: 969px) {
+@media (max-width: 1069px) {
   .right-project {
     flex-direction: column;
   }
@@ -1256,7 +1256,7 @@ code[class*=language-] {
 .right-row {
   align-self: flex-end;
 }
-@media (max-width: 969px) {
+@media (max-width: 1069px) {
   .right-row {
     align-self: flex-start;
   }
@@ -1345,7 +1345,7 @@ code[class*=language-] {
   left: -50px;
   background-image: url("../img/title_icons/language.png");
 }
-@media (max-width: 969px) {
+@media (max-width: 1069px) {
   .language-title {
     text-align: center;
   }
@@ -1399,7 +1399,7 @@ code[class*=language-] {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 969px) {
+@media (max-width: 1069px) {
   .language__wrapper {
     align-items: center;
   }

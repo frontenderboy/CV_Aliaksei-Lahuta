@@ -26,7 +26,7 @@ body {
     font-size: 4rem;
     margin-bottom: 70px;
 
-    @media(max-width: 969px) {
+    @media(max-width: 1069px) {
         text-align: center;
     };
 
@@ -45,7 +45,7 @@ body {
     left: -50px;
     background-image: url('../img/title_icons/course-projects.png');
 
-    @media(max-width: 969px) {
+    @media(max-width: 1069px) {
         content: none;
     }
 };
@@ -60,7 +60,7 @@ body {
     left: -45px;
     background-image: url('../img/title_icons/team.png');
 
-    @media(max-width: 969px) {
+    @media(max-width: 1069px) {
         content: none;
     }
 };
@@ -75,7 +75,7 @@ body {
     left: -80px;
     background-image: url('../img/title_icons/pet-projects.png');
 
-    @media(max-width: 969px) {
+    @media(max-width: 1069px) {
         content: none;
     }
 }

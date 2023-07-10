@@ -18,7 +18,7 @@
         left: -50px;
         background-image: url('../img/title_icons/light-bulb.png');
     };
-    @media(max-width: 969px) {
+    @media(max-width: 1069px) {
         text-align: center;
         &::before {
             content: none;
