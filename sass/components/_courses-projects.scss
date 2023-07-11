@@ -113,8 +113,11 @@
 .project__skill-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 20px;
+
+    @include media-smallmobile {
+        justify-content: center;
+    }
 }
 
 .project__skill-item {

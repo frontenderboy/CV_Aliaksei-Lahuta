@@ -1333,8 +1333,12 @@ code[class*=language-] {
 .project__skill-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 20px;
+}
+@media (max-width: 400px) {
+  .project__skill-list {
+    justify-content: center;
+  }
 }
 
 .project__skill-item {
