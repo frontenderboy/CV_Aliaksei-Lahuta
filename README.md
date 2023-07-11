@@ -1,3 +1,6 @@
-# [Markdown CV](https://frontenderboy.github.io/rsschool-cv/cv)
+<h2 align="center">CV — Aliaksei Lahuta</h2>
 
-# [GitHub Pages CV](https://frontenderboy.github.io/rsschool-cv/)
+<br>
+<br>
+
+<a href="https://frontenderboy.github.io/rsschool-cv/" target="_blank"><img src="preview.jpg"></a>
