@@ -1,5 +1,5 @@
 @mixin media-laptop {
-    @media (max-width: 1150px) { @content; }
+    @media (max-width: 1250px) { @content; }
 }
 
 @mixin media-minlaptop {
