@@ -17,6 +17,9 @@ body {
     @include media-laptop {
         padding: 0 60px;
     }
+    @include media-smallmobile {
+        padding: 0 35px;
+    }
 }
 
 .projects__title {
@@ -32,6 +35,11 @@ body {
 
     @include media-mobile {
         font-size: 3.6rem;
+    }
+
+    @include media-smallmobile {
+        font-size: 2.3rem;
+        margin-bottom: 45px;
     }
 }
 

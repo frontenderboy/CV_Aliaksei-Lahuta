@@ -1,5 +1,9 @@
 .section__team-projects {
     margin-bottom: 200px;
+
+    @include media-smallmobile {
+        margin-bottom: 120px;
+    }
 }
 
 .courses__project-text {

@@ -1,5 +1,9 @@
 .section__pet-projects {
     margin-bottom: 180px;
+
+    @include media-smallmobile {
+        margin-bottom: 120px;
+    }
 }
 
 .virtual-keyboard-image {
@@ -10,6 +14,11 @@
         width: 360px;
         height: 210px;
     }
+
+    @include media-smallmobile {
+        width: 230px;
+        height: 145px;
+    }
 }
 
 .month-ago-image {
@@ -19,6 +28,10 @@
     @include media-mobile {
         width: 360px;
         height: 210px;
+    }
+    @include media-smallmobile {
+        width: 230px;
+        height: 145px;
     }
 }
 

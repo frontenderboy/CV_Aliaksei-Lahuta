@@ -19,14 +19,20 @@
     & span {
         color: $color-fiolet;
     };
-}
 
-@include media-mobile {
-    .footer-github {
-        margin: 25px 0;
+    @include media-smallmobile {
+        font-size: 2rem;
     }
 }
 
+.footer-github {
+    @include media-mobile {
+        margin: 25px 0;
+    }
+    @include media-smallmobile {
+        width: 50px;
+    }
+}
 
 .rsschool:hover path {
     fill: $color-fiolet;

@@ -29,6 +29,10 @@
     @include media-mobile {
         font-size: 3.6rem;
     }
+
+    @include media-smallmobile {
+        font-size: 2.7rem;
+    }
 }
 
 .section__skills-wrapper {
@@ -42,12 +46,30 @@
     }
 }
 
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .item-logo {
-    background: $color-white;
+    display: flex;
+    justify-content: center;
     width: 150px;
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 15px;
+    background: $color-white;
+}
+
+@include media-smallmobile {
+    .item-logo {
+        width: 120px;
+        
+        & img {
+            width: 80px;
+        }
+    }
 }
 
 .skill__item-title {

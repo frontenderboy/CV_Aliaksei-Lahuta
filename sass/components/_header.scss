@@ -167,7 +167,8 @@
 
 @include media-smallmobile {
     .header__list li a {
-        font-size: 1.5rem;
+        font-size: 1.34rem;
+        padding: 11px 11px;
     }
 }
 
@@ -203,6 +204,15 @@
     @include media-mobile {
         &::before {
             left: -15px;
+        }
+    }
+
+    @include media-smallmobile {
+        margin-bottom: 90px;
+        &::before {
+            width: 115px;
+            height: 90px;
+            top: 30px;
         }
     }
 }
@@ -244,6 +254,11 @@
         background: radial-gradient(50% 50.00% at 50% 50.00%, #763CAC 0%, rgba(50, 15, 133, 0.00) 100%);
         z-index: -1;
         animation: blink 2s infinite;
+
+        @include media-smallmobile {
+            width: 270px;
+            height: 270px;
+        }
     };
 
     &::after {
@@ -266,12 +281,23 @@
             right: -5px;
             bottom: -30px;
         }
+
+        @include media-smallmobile {
+            width: 105px;
+            height: 105px;
+            left: 30px;
+            bottom: -20px;
+        }
     };
 
     @include media-mobile {
         width: 350px;
         height: 350px;
         margin-bottom: 40px;
+    }
+
+    @include media-smallmobile {
+        width: auto;
     }
 }
 
@@ -287,6 +313,10 @@
     @include media-mobile {
         width: 250px;
         height: 250px;
+    }
+    @include media-smallmobile {
+        width: 200px;
+        height: 200px;
     }
 }
 
@@ -328,6 +358,9 @@
     @include media-mobile {
         font-size: 3rem;
     }
+    @include media-smallmobile {
+        font-size: 2.6rem;
+    }
 }
 
 .profile__status {
@@ -349,6 +382,10 @@
 
     @include media-mobile {
         font-size: 2rem;
+    }
+
+    @include media-smallmobile {
+        font-size: 1.6rem;
     }
 }
 
