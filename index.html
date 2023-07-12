@@ -31,12 +31,28 @@
         
                 <nav class="header__navbar" data-navbar>
                     <ul class="header__list">
-                        <li><a href="#about-me" class="list__item">About Me</a></li>
-                        <li><a href="#skills" class="list__item">Skills</a></li>
-                        <li><a href="#projects" class="list__item">Projects</a></li>
-                        <li><a href="#contacts" class="list__item">Contacts</a></li>
+                        <li class="header__list-li"><a href="#about-me" class="list__item">About Me</a></li>
+                        <li class="header__list-li"><a href="#skills" class="list__item">Skills</a></li>
+                        <li class="header__list-li">
+                            <a href="#projects" class="list__item sub-item">Projects</a>
+                            <span class="sub-menu__arrow arrow">
+                                    <svg class="arrow-svg" xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 512 512"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+                            </span>
+							<ul class="sub-menu__list">
+									<li>
+										<a href="#projects" class="sub-menu__link">Courses Projects</a>
+									</li>
+									<li>
+										<a href="#team-projects" class="sub-menu__link">Team Projects</a>
+									</li>
+									<li>
+										<a href="#pet-projects" class="sub-menu__link">Pet Projects</a>
+									</li>
+							</ul>
+                        </li>
+                        <li class="header__list-li"><a href="#contacts" class="list__item">Contacts</a></li>
 
-                        <li>
+                        <li class="header__list-li">
                             <a href="mailto:lahutaaliaksei@gmail.com" class="list__item burger-item">lahutaaliaksei@gmail.com</a>
                         </li>
                     </ul>
@@ -302,7 +318,7 @@
             </div>
         </section>
     
-        <section class="section__team-projects">
+        <section class="section__team-projects" id="team-projects">
             <div class="container">
                 <h2 class="projects__title team-title">Team Projects</h2>
     
@@ -350,7 +366,7 @@
             </div>
         </section>
     
-        <section class="section__pet-projects">
+        <section class="section__pet-projects" id="pet-projects">
             <div class="container">
                 <h2 class="projects__title pet-title">Pet Projects</h2>
     

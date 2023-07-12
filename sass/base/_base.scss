@@ -7,6 +7,18 @@ body {
     background: $color-prim;
 }
 
+body.mouse .header__navbar li:hover .sub-menu__list {
+    display: block;
+}
+
+body.touch .sub-menu__list.open {
+    display: block;
+}
+
+body.touch .arrow {
+	display: block;
+}
+
 .page__body {
     overflow-x: hidden;
 }

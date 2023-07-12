@@ -35,3 +35,31 @@ navItems.forEach(el => {
         navbarNode.classList.remove('header__navbar--visible');
     })
 })
+
+// ------ Menu ------ 
+
+let isMobile = {
+	Android: function() {return navigator.userAgent.match(/Android/i);},
+	BlackBerry: function() {return navigator.userAgent.match(/BlackBerry/i);},
+	iOS: function() {return navigator.userAgent.match(/iPhone|iPad|iPod/i);},
+	Opera: function() {return navigator.userAgent.match(/Opera Mini/i);},
+	Windows: function() {return navigator.userAgent.match(/IEMobile/i);},
+	any: function() {return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());}
+};
+
+const body = document.querySelector('body');
+
+if(isMobile.any()) {
+    body.classList.add('touch');
+
+    const arrowNode = document.querySelector('.arrow');
+    const subLink = document.querySelector('.sub-item');
+    const subMenu = document.querySelector('.sub-menu__list');
+
+    arrowNode.addEventListener('click', () => {
+        subMenu.classList.toggle('open');
+        arrowNode.classList.toggle('active');
+    })
+} else {
+    body.classList.add('mouse')
+}
