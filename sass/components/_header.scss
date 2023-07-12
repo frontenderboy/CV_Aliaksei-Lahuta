@@ -64,6 +64,10 @@
 .header__list-li:hover .arrow-svg {
     fill: none;
     transform: rotate(180deg);
+
+    @include media-tablet {
+        fill: $color-white
+    }
 }
 
 .arrow:active {
