@@ -139,6 +139,11 @@
             color: $color-black;
             background: $color-white;
         }
+
+        @include media-smallmobile {
+            padding: 15px;
+            font-size: 1.4rem;
+        }
     };
 }
 
@@ -208,6 +213,11 @@
         height: 35px;
         margin-right: 15px;
         background-image: url('../img/contacts/envelope.svg');
+
+        @include media-smallmobile {
+            width: 20px;
+            height: 20px;
+        }
     }
 }
 

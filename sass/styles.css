@@ -706,6 +706,12 @@ body.touch .arrow {
   color: #000000;
   background: #ffffff;
 }
+@media (max-width: 400px) {
+  .header__list .header__list-li .list__item {
+    padding: 15px;
+    font-size: 1.4rem;
+  }
+}
 
 .burger {
   position: relative;
@@ -774,6 +780,12 @@ body.touch .arrow {
   height: 35px;
   margin-right: 15px;
   background-image: url("../img/contacts/envelope.svg");
+}
+@media (max-width: 400px) {
+  .burger-item::before {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 @media (max-width: 800px) {
