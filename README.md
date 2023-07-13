@@ -3,4 +3,4 @@
 <br>
 <br>
 
-<a href="https://frontenderboy.github.io/CV_Aliaksei-Lahuta/" target="_blank"><img src="preview.jpg"></a>
+<a href="https://frontenderboy.github.io/rsschool-cv/" target="_blank"><img src="preview.jpg"></a>
